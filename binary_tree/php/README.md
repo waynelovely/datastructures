@@ -1,5 +1,5 @@
-Binary Tree
-===========
+Binary Search Tree
+==================
 
 A binary search tree is a data structure in which:
 
