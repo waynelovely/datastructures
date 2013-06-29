@@ -28,7 +28,7 @@
 
 
 require_once 'TreeNode.php';
-require_once 'BinaryTree.php';
+require_once 'BinarySearchTree.php';
 
  /**
   * Returns nothing
@@ -44,7 +44,7 @@ function hello($who)
 } 
 
 $myroot = new TreeNode('m','something about m');
-$mytree = new BinaryTree($myroot);
+$mytree = new BinarySearchTree($myroot);
 
 $mytree->insert($mytree->getHead(), 'f', 'something about f');
 
